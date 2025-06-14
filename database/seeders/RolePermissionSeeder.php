@@ -22,14 +22,14 @@ class RolePermissionSeeder extends Seeder
         //Create User
         $userSuperAdmin = User::create([
             'name' => 'Super Admin',
-            'email' => 'admin@techade.id',
-            'password' => bcrypt('sukses2025')
+            'email' => 'super.admin@email.com',
+            'password' => bcrypt('super-admin123')
         ]);
 
         $userAdmin = User::create([
             'name' => 'Admin',
-            'email' => 'abdillah@techade.id',
-            'password' => bcrypt('sukses2025')
+            'email' => 'admin@email.com',
+            'password' => bcrypt('admin123')
         ]);
 
         //Assign Role
