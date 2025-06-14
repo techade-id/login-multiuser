@@ -1,1 +1,1 @@
-# Login & Register using Laravel, Blade, and Spatie Permission
+## Login & Register App using Laravel, Blade, and Spatie Permission
